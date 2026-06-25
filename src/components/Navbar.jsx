@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="container nav-content">
         {/* Brand Logo */}
         <a href="#inicio" className="nav-logo">
-          <img src="/ran-logo.jpg" alt="RAN Abogados & Notarios" className="nav-logo-img" />
+          <img src="./ran-logo.jpg" alt="RAN Abogados & Notarios" className="nav-logo-img" />
         </a>
 
         {/* Desktop Menu */}
@@ -64,7 +64,7 @@ export default function Navbar() {
       {/* Mobile Sidebar */}
       <div className={`mobile-sidebar ${isOpen ? 'open' : ''}`}>
         <div className="mobile-sidebar-header">
-          <img src="/ran-logo.jpg" alt="RAN Abogados & Notarios" className="nav-logo-img" />
+          <img src="./ran-logo.jpg" alt="RAN Abogados & Notarios" className="nav-logo-img" />
           <button className="close-btn" onClick={() => setIsOpen(false)}>
             <X size={24} />
           </button>
